@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USER_REGISTER</title>
+</head>
+<body>
+    <h1>User Register</h1>
+    <form action="/user_register" method = "POST">
+        UserName : <input type="text" name = "username" required>
+        Password : <input type="text" name = "password" required>
+        Name : <input type="text" name = "name" required>
+        Age : <input type="text" name = "age" required>
+        Contect Info : <input type="text" name = "number" required>
+        Employed : <input type="checkbox" name = "employment" value = '0'>
+        Marital_status : <input type="checkbox" name = "marital" value = '0'>
+        <input type="Submit" value = "Register">
+    </form>
+    <h1>{{msg}}</h1>
+</body>
+</html>
